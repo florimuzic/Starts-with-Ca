@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+	:root {
+		--huge: 6rem;
+		--big: 4rem;
+	}
+}
+
+@media (max-width: 767px) {
+	:root {
+		--huge: 3.5rem;
+		--big: 2.5rem;
+	}
+}
+
+body {
+	background: #B5B0F2;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+}
+
+p {
+	color: white;
+	font-weight: 800;
+	font-size: var(--huge);
+	width: 90%;
+	max-width: 500px;
+	text-align: center;
+	margin: 40px auto;
+}
+
+span {
+	font-size: var(--big);
+	font-weight: 400;
+	display: block;
+	letter-spacing: -4px;
+	text-transform: uppercase;
+}
